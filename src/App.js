@@ -1,12 +1,13 @@
-import Tester from "./components/Tester";
+import React from "react";
+import Profile from "./components/Profile";
 
 
 function App() {
-  return (
-  <>
-   <Tester/>
-  </>
-  );
+  return(
+    
+    <Profile/>
+    
+  )
 }
 
 export default App;
