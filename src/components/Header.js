@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header() {
+function Header({pageChanger}) {
     return (
         <div class="container">
             <div>
@@ -12,10 +12,22 @@ function Header() {
                     </div>
                     <div class="col">
                 <nav class="nav">
-                    <a class="nav-link active" href="#">About</a>
-                    <a class="nav-link" href="#">Portfolio</a>
-                    <a class="nav-link" href="#">Contact</a>
-                    <a class="nav-link" href="#">Resume</a>
+                    <a class="nav-link active" 
+                    href="#about"
+                    onClick={()=> pageChanger('About')}
+                    >About</a>
+                    <a class="nav-link active" 
+                    href="#portfolio"
+                    onClick={()=> pageChanger('Portfolio')}
+                    >Portfolio</a>
+                    <a class="nav-link active" 
+                    href="#contact"
+                    onClick={()=> pageChanger('Contact')}
+                    >Contact</a>
+                    <a class="nav-link active" 
+                    href="#resume"
+                    onClick={()=> pageChanger('Resume')}
+                    >Resume</a>
                 </nav>
                 </div>
                 </header>

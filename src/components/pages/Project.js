@@ -2,15 +2,27 @@ import React from "react";
 import About from "./About";
 
 
-function Project () {
+function Project ({currentPage}) {
 
-    // const viewPage = About
-
-    // const [currentPage, setCurrentPage] = useState('About')
-    const Page = About
+    switch (currentPage){
+        case 'About':
+            Page = <About/>;
+            break;
+        case 'Portfolio':
+            Page = <Portfolio/>;
+            break;
+        case 'Contact':
+            Page = <Contact/>;
+            break;
+        case 'Resume':
+            Page = <Resume/>;
+            break;
+    }
 
     return (
-        <Page/>
+        <div>
+            {Page}
+        </div>
     )
 }
 
