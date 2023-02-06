@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-ion-profile/static/css/main.343c0be0.css",
+    "main.js": "/react-ion-profile/static/js/main.da5ff8c3.js",
+    "static/media/JJ&ME.resize.jpg": "/react-ion-profile/static/media/JJ&ME.resize.25d0187e8fa3a1d49544.jpg",
+    "index.html": "/react-ion-profile/index.html",
+    "main.343c0be0.css.map": "/react-ion-profile/static/css/main.343c0be0.css.map",
+    "main.da5ff8c3.js.map": "/react-ion-profile/static/js/main.da5ff8c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.343c0be0.css",
+    "static/js/main.da5ff8c3.js"
+  ]
+}
