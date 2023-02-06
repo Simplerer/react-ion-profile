@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+// import Project from "./pages/Project";
+
+const [currentPage, setCurrentPage] = useState('About')
 
 function Profile () {
 return (
    <>
     <Header/>
-    {/* <Body/> */}
+    {/* <Project/> */}
     <Footer/>
    </>
 )
