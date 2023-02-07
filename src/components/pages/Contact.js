@@ -1,4 +1,10 @@
 import React, { useState } from "react";
+import { emailReal } from '../utils/helper';
+import styled from 'styled-components';
+
+const P = styled.div`
+    font-size: 120%;
+`;
 
 function Contact() {
 
@@ -6,9 +12,10 @@ function Contact() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+  const [greeting, setGreeting] = useState('');
 
   const inputHandler = (e) => {
-    const input = e.target
+    const input = e.target;
     const inputType = input.name;
     const inputValue = input.value;
 
@@ -19,6 +26,24 @@ function Contact() {
     } else {
       setMessage(inputValue);
     }
+  }
+
+  function btnClick (e) {
+    e.preventDefault();
+
+    if (!emailReal(email)) {
+      setErrorMessage('This email is not valid!');
+      return;
+    }
+    if (!name) {
+      setErrorMessage('Name is required please!');
+      return;
+    }
+    setGreeting(`Thanks ${name} for the feedback!`);
+    setName('');
+    setEmail('');
+    setMessage('');
+    
   }
 
 
@@ -41,15 +66,17 @@ function Contact() {
           onChange={inputHandler} value={email}/>
         <div className="form-group">
           <label>Message Me</label>
-          <textarea className="form-control" id="comment-area" 
+          <textarea className="form-control" id="comment-area" name="message"
           placeholder="Critiques welcome but adolation more so" 
           rows="4" onChange={inputHandler} value={message}></textarea>
-          <button type="button" className="btn btn-primary btn-lg m-2">Submit</button>
+          <button type="button" className="btn btn-primary btn-lg m-2" onClick={btnClick}>Submit</button>
         </div>
       </form>
+        <p>{errorMessage}</p>
       </div>
-      <div>
-        <p>Thanks for Visiting! Leave me a message and let me know what I could improve upon, or just say Hey!</p>
+      <div className="col-3">
+        <P>Thanks for Visiting! Leave me a message and let me know what I could improve upon, or just say Hey!</P>
+        <P>{greeting}</P>
       </div>
       </div>
     </div>
