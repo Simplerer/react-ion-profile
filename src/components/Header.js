@@ -2,29 +2,29 @@ import React from "react";
 
 function Header({pageChanger}) {
     return (
-        <div class="container">
+        <div className="container">
             <div>
             
-                <header class="row d-flex justify-content-around align-items-end ">
-                    <div class="col">
+                <header className="row d-flex justify-content-around align-items-end ">
+                    <div className="col">
                     <h1>Scott Stone</h1>
                     <h2>Full-Stack Developer</h2>
                     </div>
-                    <div class="col">
-                <nav class="nav">
-                    <a class="nav-link active" 
+                    <div className="col">
+                <nav className="nav">
+                    <a className="nav-link active" 
                     href="#about"
                     onClick={()=> pageChanger('About')}
                     >About</a>
-                    <a class="nav-link active" 
+                    <a className="nav-link" 
                     href="#portfolio"
                     onClick={()=> pageChanger('Portfolio')}
                     >Portfolio</a>
-                    <a class="nav-link active" 
+                    <a className="nav-link" 
                     href="#contact"
                     onClick={()=> pageChanger('Contact')}
                     >Contact</a>
-                    <a class="nav-link active" 
+                    <a className="nav-link" 
                     href="#resume"
                     onClick={()=> pageChanger('Resume')}
                     >Resume</a>

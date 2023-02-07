@@ -1,27 +1,47 @@
 import React, { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import Project from "./pages/Project";
+import pages from "./pages"
+
+const { About, Portfolio } = pages
 
 
-function Profile () {
+function Profile() {
 
-   const [currentPage, setCurrentPage] = useState('About')
+  const [currentPage, setCurrentPage] = useState('About')
+  // const [] = useState('')
+  const pageChanger = (page) => setCurrentPage(page)
 
-   const pageChanger = (page) => setCurrentPage(page)
+  let view
+
+  switch (currentPage) {
+    case 'Portfolio':
+      view = <Portfolio />;
+      break;
+    case 'Contact':
+      page = <Contact />;
+      break;
+    // case 'Resume':
+    //     page = <Resume/>;
+    //     break;
+    case 'About':
+      view = <About />;
+      break;
+  }
 
 
 
 
-return (
-   <>
-    <Header
-    pageChanger={pageChanger}/>
-    <Project
-    currentPage={currentPage}/>
-    <Footer/>
-   </>
-)
+
+
+  return (
+    <>
+      <Header
+        pageChanger={pageChanger} />
+      <div>{view}</div>
+      <Footer />
+    </>
+  )
 }
 
 export default Profile;
