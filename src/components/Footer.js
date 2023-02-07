@@ -10,21 +10,21 @@ const styles = {
 function Footer() {
   return (
     <div>
-      <div class="card text-center fixed-bottom">
-        <div class="card-header">
-          <ul class="nav nav-tabs card-header-tabs">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Light</a>
+      <div className="card text-center fixed-bottom">
+        <div className="card-header">
+          <ul className="nav nav-tabs card-header-tabs">
+            <li className="nav-item">
+              <a className="nav-link active" href="#">Light</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Dark</a>
+            <li className="nav-item">
+              <a className="nav-link" href="#">Dark</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artistic</a>
+            <li className="nav-item">
+              <a className="nav-link" href="#">Artistic</a>
             </li>
           </ul>
         </div>
-        <div class="card-body">
+        <div className="card-body">
           <img style={styles.github} src={github} alt='github logo'></img>
         </div>
       </div>

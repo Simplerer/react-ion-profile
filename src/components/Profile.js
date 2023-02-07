@@ -3,7 +3,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import pages from "./pages"
 
-const { About, Portfolio } = pages
+const { About, Portfolio, Contact } = pages
 
 
 function Profile() {
@@ -19,7 +19,7 @@ function Profile() {
       view = <Portfolio />;
       break;
     case 'Contact':
-      page = <Contact />;
+      view = <Contact />;
       break;
     // case 'Resume':
     //     page = <Resume/>;
