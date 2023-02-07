@@ -51,6 +51,7 @@ function Contact() {
   return (
 
     <div className="container">
+      <h2>Contact</h2>
       <div className="row d-flex align-items-center">
         <div className="col-8 p-3 m-5">
       <form className="">
@@ -75,8 +76,12 @@ function Contact() {
         <p>{errorMessage}</p>
       </div>
       <div className="col-3">
+      <div>
         <P>Thanks for Visiting! Leave me a message and let me know what I could improve upon, or just say Hey!</P>
+      </div>
+      <div className="mt-3">
         <P>{greeting}</P>
+      </div>
       </div>
       </div>
     </div>

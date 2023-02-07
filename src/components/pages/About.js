@@ -1,14 +1,20 @@
 import React from "react";
-import pic from '../../images/JJ&ME.resize.jpg';
+import pic from '../assets/images/JJ&ME.resize.jpg';
 import styled from 'styled-components';
 
 const P = styled.div`
     font-size: 120%;
 `;
 
+// const Img = styled.div`
+//     max-width: 200px;
+//     max-height: 200px;
+// `;
+
 function About () {
     return(
     <div className="container">
+    <h2>About Me</h2>
     <div className="row d-flex justify-content-around align-items">
     <div className="col">
     <img src={pic} alt="Nice Picture"></img>

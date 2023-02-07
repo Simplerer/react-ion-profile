@@ -5,10 +5,9 @@ function Header({pageChanger}) {
         <div className="container">
             <div>
             
-                <header className="row d-flex justify-content-around align-items-end ">
+                <header className="row d-flex justify-content-around align-items-end p-4 m-2">
                     <div className="col">
                     <h1>Scott Stone</h1>
-                    <h2>Full-Stack Developer</h2>
                     </div>
                     <div className="col">
                 <nav className="nav">

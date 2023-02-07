@@ -1,5 +1,5 @@
 import React from "react";
-import github from '../images/github-mark.png'
+import github from '../components/assets/images/github-mark.png'
 
 const styles = {
   github: {

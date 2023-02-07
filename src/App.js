@@ -1,11 +1,11 @@
 import React from "react";
-import Profile from "./components/Profile";
+import Project from "./components/Project";
 
 
 function App() {
   return(
     
-    <Profile/>
+    <Project/>
     
   )
 }
