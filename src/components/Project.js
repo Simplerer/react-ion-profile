@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import pages from "./pages"
+import pages from "./pages";
+import images from './assets/index'
 
 const { About, Portfolio, Contact, Resume } = pages
 
@@ -16,7 +17,7 @@ function Project() {
 
   switch (currentPage) {
     case 'Portfolio':
-      view = <Portfolio />;
+      view = <Portfolio images={images}/>;
       break;
     case 'Contact':
       view = <Contact />;

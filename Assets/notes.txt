@@ -1,0 +1,36 @@
+npm install animate.css --save
+
+
+animate.css
+
+import 'animate.css'
+-- this goes into file
+
+goes into tag of desired element
+
+<h1 class='animate_animated animate_bounce'>this thing will bounce</h1>
+
+adding delay directly
+
+<h1 class='animate_animated animate_bounce__delay-2s'>this thing will bounce</h1>
+
+adding speed
+
+<h1 class='animate_animated animate_bounce animate__faster'>this thing will bounce</h1>
+    -slow, slower, fast, animate__faster
+    - similarly --  animate__repeat-1,2,3, infinite
+
+
+
+------------------------------------------------------------------------------------------------------
+
+nav highlighted at current page
+
+mobile view
+
+color
+
+final designing
+
+icon links to outisde sources
+
