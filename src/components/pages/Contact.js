@@ -75,7 +75,7 @@ function Contact() {
       </form>
         <p>{errorMessage}</p>
       </div>
-      <div className="col-3">
+      <div className="col-lg-3 col-sm-12">
       <div>
         <P>Thanks for Visiting! Leave me a message and let me know what I could improve upon, or just say Hey!</P>
       </div>

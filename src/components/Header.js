@@ -2,37 +2,69 @@ import React from "react";
 
 function Header({ pageChanger, currentPage }) {
   return (
-    <div className="pt-3">
-      <div className="card">
-        <div className="card-body">
-          <div className="col">
+    // <div className="pt-3">
+    //   <div className="card">
+    //     <div className="card-body">
+    //       <div className="col">
+    //         <h1>Scott Stone</h1>
+    //       </div>
+    //     </div>
+    //     <div className="card-header">
+    //       <ul className="nav nav-tabs card-header-tabs justify-content-end">
+    //         <li className="nav-item">
+    //           <a className={currentPage == 'About' ? 'nav-link-active' : 'nav-link'}
+    //             href="#about"
+    //             onClick={() => pageChanger('About')}>About</a>
+    //         </li>
+    //         <li className="nav-item">
+    //           <a className={currentPage == 'Portfolio' ? 'nav-link-active' : 'nav-link'}
+    //             href='#portfolio'
+    //             onClick={() => pageChanger('Portfolio')}>Portfolio</a>
+    //         </li>
+    //         <li className="nav-item">
+    //           <a className={currentPage == 'Contact' ? 'nav-link-active' : 'nav-link'}
+    //             href="#contact"
+    //             onClick={() => pageChanger('Contact')}>Artistic</a>
+    //         </li>
+    //         <li className="nav-item">
+    //           <a className="nav-link" href="#">Artistic</a>
+    //         </li>
+    //       </ul>
+    //     </div>
+    //   </div>
+    // </div>
+    <div className="container">
+      <div>
+
+        <header className="row d-flex align-items-end m-4">
+          <div className="col-lg-4 col-sm-12">
             <h1>Scott Stone</h1>
           </div>
-        </div>
-        <div className="card-header">
-          <ul className="nav nav-tabs card-header-tabs justify-content-end">
-            <li className="nav-item">
-              <a className={currentPage == 'About' ? 'nav-link-active' : 'nav-link'}
+          <div className="col-lg-6 col-sm-12 d-flex justify-content-between p-3 me-3">
+          
+              <a className={currentPage == 'About' ? 
+              'nav-link-active' : 'nav-link'}
                 href="#about"
-                onClick={() => pageChanger('About')}>About</a>
-            </li>
-            <li className="nav-item">
-              <a className={currentPage == 'Portfolio' ? 'nav-link-active' : 'nav-link'}
+                onClick={() => pageChanger('About')}
+              >About</a>
+              <a className={currentPage == 'Portfolio' ? 
+              'nav-link-active' : 'nav-link'}
                 href='#portfolio'
-                onClick={() => pageChanger('Portfolio')}>Portfolio</a>
-            </li>
-            <li className="nav-item">
-              <a className={currentPage == 'Contact' ? 'nav-link-active' : 'nav-link'}
+                onClick={() => pageChanger('Portfolio')}
+              >Portfolio</a>
+              <a className={currentPage == 'Contact' ? 
+              'nav-link-active' : 'nav-link'}
                 href="#contact"
-                onClick={() => pageChanger('Contact')}>Contact</a>
-            </li>
-            <li className="nav-item">
-              <a className={currentPage == 'Resume' ? 'nav-link-active' : 'nav-link'}
+                onClick={() => pageChanger('Contact')}
+              >Contact</a>
+              <a className={currentPage == 'Resume' ? 
+              'nav-link-active' : 'nav-link'}
                 href="#resume"
-                onClick={() => pageChanger('Resume')}>Artistic</a>
-            </li>
-          </ul>
-        </div>
+                onClick={() => pageChanger('Resume')}
+              >Resume</a>
+           
+          </div>
+        </header>
       </div>
     </div>
   )

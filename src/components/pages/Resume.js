@@ -5,11 +5,12 @@ function Resume () {
 
     return (
         <div className="container">
+            <h2>Resume</h2>
             <div className="row d-flex justify-content-between align-items-center">
-            <div className="col-3">
+            <div className="col-lg-3 col-sm-12">
             <a href={resume} className="btn btn-primary p-4 ms-5" download>Downloadable Resume</a>
             </div>
-            <div className="col-6 m-3">
+            <div className="col-lg-6 col-sm-12 m-3">
                 <section className="m-2 p-2">
                     <h2>Technical Languages</h2>
                     <ul>

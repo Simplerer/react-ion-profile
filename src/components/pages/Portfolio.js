@@ -18,13 +18,15 @@ const styles = {
   }
 }
 
+
+
 function Portfolio() {
   return (
 
     <div className="container">
       <h2>Portfolio</h2>
       <div className="row d-flex justify-content-around">
-        <div className="col-5 p-2 m-2">
+        <div className="col-lg-5 col-sm-12 p-2 m-2">
           <div className="card" >
             <a href="https://fathomless-woodland-16696.herokuapp.com/"><img style={styles.img} className="card-img-top" src={yaHeard} alt="Card image cap" /></a>
             <div className="card-body">
@@ -32,7 +34,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="col-5 p-2 m-2">
+        <div className="col-lg-5 col-sm-12 p-2 m-2">
           <div className="card" >
             <a href="https://limitless-forest-03421.herokuapp.com/"><img style={styles.img} className="card-img-top" src={techy} alt="Card image cap" /></a>
             <div className="card-body">
@@ -40,7 +42,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="col-5 p-2 m-2">
+        <div className="col-lg-5 col-sm-12 p-2 m-2">
           <div className="card" >
             <a href="https://simplerer.github.io/weather-board/"><img style={styles.img} className="card-img-top" src={weather} alt="Card image cap" /></a>
             <div className="card-body">
@@ -48,7 +50,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="col-5 p-2 m-2">
+        <div className="col-lg-5 col-sm-12 p-2 m-2">
           <div className="card" >
             <a href="https://github.com/Simplerer"><img style={styles.img} className="card-img-top" src={employee} alt="Card image cap" /></a>
             <div className="card-body">
@@ -56,7 +58,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="col-5 p-2 m-2">
+        <div className="col-lg-5 col-sm-12 p-2 m-2">
           <div className="card" >
             <a href="https://simplerer.github.io/code-quiz-kid/"><img style={styles.img} className="card-img-top" src={quiz} alt="Card image cap" /></a>
             <div className="card-body">
@@ -64,7 +66,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="col-5 p-2 m-2">
+        <div className="col-lg-5 col-sm-12 p-2 m-2">
           <div className="card" >
             <a href="https://github.com/Simplerer"><img style={styles.img} className="card-img-top" src={team} alt="Card image cap" /></a>
             <div className="card-body">
