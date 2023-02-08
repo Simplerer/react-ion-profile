@@ -1,5 +1,5 @@
 import React from "react";
-import pic from '../assets/images/JJ&ME.resize.jpg';
+import pic from '../assets/images/headshot.jpg';
 import styled from 'styled-components';
 
 const P = styled.div`
@@ -13,9 +13,10 @@ const styles = {
 }
 
 function About() {
+    
     return (
         <div className="container">
-            <h2>About Me</h2>
+            <h2 className="animate__animated animate__bounce animate__slow 1s">About Me</h2>
             <div className="row d-flex align-items-center m-3 p-3">
                 <div className="col-sm-12 col-lg-6">
                     <img style={styles.img} src={pic} alt="Nice Picture"></img>

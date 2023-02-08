@@ -46,12 +46,10 @@ function Contact() {
     
   }
 
-
-
   return (
 
     <div className="container">
-      <h2>Contact</h2>
+      <h2 className="animate__animated animate__bounce animate__slow 1s">Contact</h2>
       <div className="row d-flex align-items-center">
         <div className="col-8 p-3 m-5">
       <form className="">

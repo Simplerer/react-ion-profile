@@ -4,8 +4,9 @@ import resume from '../assets/StoneResume.pdf';
 function Resume () {
 
     return (
+        
         <div className="container">
-            <h2>Resume</h2>
+            <h2 className="animate__animated animate__bounce animate__slow 1s">Resume</h2>
             <div className="row d-flex justify-content-between align-items-center">
             <div className="col-lg-3 col-sm-12">
             <a href={resume} className="btn btn-primary p-4 ms-5" download>Downloadable Resume</a>
@@ -33,10 +34,7 @@ function Resume () {
                     </ul>
                 </section>
             </div>
-            </div>
-           
-
-
+            </div>          
         </div>
     )
 
