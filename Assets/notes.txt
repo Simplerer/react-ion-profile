@@ -24,8 +24,6 @@ adding speed
 
 ------------------------------------------------------------------------------------------------------
 
-nav highlighted at current page
-
 mobile view
 
 color

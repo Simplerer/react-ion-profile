@@ -5,7 +5,6 @@ import pages from "./pages";
 
 const { About, Portfolio, Contact, Resume } = pages
 
-
 function Project() {
 
   const [currentPage, setCurrentPage] = useState('About')
@@ -37,7 +36,9 @@ function Project() {
   return (
     <>
       <Header
-        pageChanger={pageChanger} />
+        pageChanger={pageChanger}
+        currentPage={currentPage}
+        />
       <div>{view}</div>
       <Footer />
     </>
