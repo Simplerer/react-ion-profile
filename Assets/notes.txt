@@ -32,5 +32,3 @@ color
 
 final designing
 
-icon links to outisde sources
-
