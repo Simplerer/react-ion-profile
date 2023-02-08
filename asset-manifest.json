@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/react-ion-profile/static/css/main.343c0be0.css",
-    "main.js": "/react-ion-profile/static/js/main.da5ff8c3.js",
+    "main.css": "/react-ion-profile/static/css/main.e9c42be0.css",
+    "main.js": "/react-ion-profile/static/js/main.5c586434.js",
+    "static/media/YaHeard.png": "/react-ion-profile/static/media/YaHeard.317bc7132da30f1919cf.png",
+    "static/media/StoneResume.pdf": "/react-ion-profile/static/media/StoneResume.209604ca9d47a22f36b6.pdf",
     "static/media/JJ&ME.resize.jpg": "/react-ion-profile/static/media/JJ&ME.resize.25d0187e8fa3a1d49544.jpg",
+    "static/media/weather-board.png": "/react-ion-profile/static/media/weather-board.5d999b01001567b5bda6.png",
+    "static/media/EmployerTrack.png": "/react-ion-profile/static/media/EmployerTrack.1b1f3b3d73cfe30c8a39.png",
+    "static/media/Team-Roster.png": "/react-ion-profile/static/media/Team-Roster.663c2168bc7d4d403571.png",
+    "static/media/Quiz-Kid.png": "/react-ion-profile/static/media/Quiz-Kid.5713e935cc66790951b8.png",
+    "static/media/Tech-E-ish.png": "/react-ion-profile/static/media/Tech-E-ish.71180c356af332f2b915.png",
     "index.html": "/react-ion-profile/index.html",
-    "main.343c0be0.css.map": "/react-ion-profile/static/css/main.343c0be0.css.map",
-    "main.da5ff8c3.js.map": "/react-ion-profile/static/js/main.da5ff8c3.js.map"
+    "main.e9c42be0.css.map": "/react-ion-profile/static/css/main.e9c42be0.css.map",
+    "main.5c586434.js.map": "/react-ion-profile/static/js/main.5c586434.js.map"
   },
   "entrypoints": [
-    "static/css/main.343c0be0.css",
-    "static/js/main.da5ff8c3.js"
+    "static/css/main.e9c42be0.css",
+    "static/js/main.5c586434.js"
   ]
 }
