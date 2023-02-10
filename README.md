@@ -15,7 +15,7 @@
     
   ## Image
   
-  ![A little Snippet](/src/components/assets/images/Portfolio%20pic.jpg)
+  ![A little Snippet](./src/components/assets/images/Portfolio%20pic.jpg)
     
   ## Questions
   If you need any more information on using this application, my email is simplererstone@gmail.com.
